@@ -123,7 +123,7 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 
 
-## RTL:
+## RTL
 
 ## SR-flipflops:
 
@@ -146,4 +146,4 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ![jk timing](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/b8cccbb1-b9d5-4d54-a516-4df77289ee73)
 
 
-### RESULTS 
+### RESULTS:
