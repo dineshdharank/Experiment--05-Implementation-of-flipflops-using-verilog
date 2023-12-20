@@ -157,4 +157,7 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ![Screenshot 2023-12-20 210921](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/0d73535d-78db-4821-8491-4d0cc17ae1d2)
 
 
+
+
+
 ### RESULTS:
