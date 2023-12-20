@@ -121,6 +121,9 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 ![jk program](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/9e4b577c-9a46-41e4-87c1-e9ff3cad5709)
 
+## T-flipflops:
+
+![Screenshot 2023-12-19 224401](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/687303d7-52ff-4f1e-bfdd-86607a5fd5d8)
 
 
 ## RTL
@@ -133,6 +136,9 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 ![jk rtc](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/8eb97a7f-c06f-47bf-ab81-151fd5399f1d)
 
+## T-flipflops:
+
+![Screenshot 2023-12-19 224336](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/12e598b3-50d8-4054-9ed2-b1d5e910cfd3)
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
@@ -145,6 +151,10 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ## JK-flipflops:
 
 ![jk timing](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/b8cccbb1-b9d5-4d54-a516-4df77289ee73)
+
+## T-flipflops:
+
+![Screenshot 2023-12-20 210921](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/0d73535d-78db-4821-8491-4d0cc17ae1d2)
 
 
 ### RESULTS:
