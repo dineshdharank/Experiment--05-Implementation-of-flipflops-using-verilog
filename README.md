@@ -105,7 +105,7 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
+## PROCEDURE:
 
 ## 1)Create a New Project:
 
@@ -147,7 +147,8 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 
 
-### PROGRAM 
+
+## PROGRAM:
 
 
 ## SR-flipflops:
@@ -166,7 +167,8 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 ![Screenshot 2023-12-21 142922](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/37341f38-e851-407b-9a17-19916019ad65)
 
-## RTL
+
+## RTL:
 
 ## SR-flipflops:
 
@@ -186,7 +188,7 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 
 
-### TIMING DIGRAMS FOR FLIP FLOPS 
+### TIMING DIGRAMS FOR FLIP FLOPS:
 
 ## SR-flipflops:
 
