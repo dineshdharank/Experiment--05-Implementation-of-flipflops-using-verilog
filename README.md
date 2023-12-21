@@ -1,7 +1,8 @@
 ## Name: Dineshdharan.K
 ## Reg: 23014095
 
-# Experiment--05-Implementation-of-flipflops-using-verilog
+## Experiment--05-Implementation-of-flipflops-using-verilog
+
 ### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
@@ -105,13 +106,42 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
+
+1)Create a New Project:
+
+-Open Quartus and create a new project by selecting "File" > "New Project Wizard."
+-Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
+
+2)Create a New Design File:
+
+-Once the project is created, right-click on the project name in the Project Navigator and select "Add New File."
+-Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language.
+
+3)Write the Combinational Logic Code:
+
+-Open the newly created Verilog or VHDL file and write the code for your combinational logic.
+
+4)Compile the Project:
+
+-To compile the project, click on "Processing" > "Start Compilation" in the menu.
+-Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
+
+5)Analyze and Fix Errors:
+
+-If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window.
+-Review and fix any issues in your code if necessary.
+-View the RTL diagram.
+
+6)Verification:
+
+-Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
+-Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All.
+-Give the Input Combinations according to the Truth Table and then simulate the Output Waveform.
 
 
 
 ### PROGRAM 
 
-## Program for flipflops  and verify its truth table in quartus using Verilog programming.
 
 ## SR-flipflops:
 
@@ -125,6 +155,9 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 ![Screenshot 2023-12-19 224401](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/687303d7-52ff-4f1e-bfdd-86607a5fd5d8)
 
+## D flipflops:
+
+![Screenshot 2023-12-21 142922](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/37341f38-e851-407b-9a17-19916019ad65)
 
 ## RTL
 
@@ -139,6 +172,11 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ## T-flipflops:
 
 ![Screenshot 2023-12-19 224336](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/12e598b3-50d8-4054-9ed2-b1d5e910cfd3)
+
+## D flipflops:
+
+![Screenshot 2023-12-21 142800](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/a14e10f4-eb34-494f-a021-e47dec7ff0f3)
+
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
@@ -157,7 +195,9 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ![Screenshot 2023-12-20 210921](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/0d73535d-78db-4821-8491-4d0cc17ae1d2)
 
 
+## D flipflops:
 
+![Screenshot 2023-12-21 143548](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/81b89868-c57c-44b9-9a2a-054f151f2b55)
 
 
 ### RESULTS:
