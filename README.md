@@ -210,3 +210,5 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 
 ### RESULTS:
+
+By this we have verified the truth table of JK flip flop, SR flip flop, D flip flop and T flip flop using verilog
