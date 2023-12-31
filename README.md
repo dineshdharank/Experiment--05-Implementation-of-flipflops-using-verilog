@@ -1,7 +1,7 @@
 ## Name: Dineshdharan.K
 ## Reg: 23014095
 
-## Experiment--05-Implementation-of-flipflops-using-verilog
+## Experiment 05 Implementation of flipflops using verilog
 
 ### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
@@ -152,21 +152,73 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 
 ## SR-flipflops:
+~~~
+module flipflops(S,R,clk,Q,Qbar);
+input S,R,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=S|((~R)&Q);
+Qbar=R|((~S)&(Qbar));
+end
+endmodule
 
-![sr program](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/2f0eb067-3bfd-45ed-ad9c-2b441dd9419e)
+~~~
 
 ## JK-flipflops:
 
-![jk program](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/9e4b577c-9a46-41e4-87c1-e9ff3cad5709)
+~~~
+JK Flip Flop:
+module flipflops(J,K,clk,Q,Qbar);
+input J,K,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=(J&(~Q))|((~K)&Q);
+Qbar=((~J)&(Qbar))|K&(~Qbar);
+end
+endmodule
+
+~~~
 
 ## T-flipflops:
 
-![Screenshot 2023-12-19 224401](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/687303d7-52ff-4f1e-bfdd-86607a5fd5d8)
+~~~
+
+T flip flop:
+module exp_5c(clk,T,q,qbar);
+input clk,T;
+output q,qbar;
+reg q,qbar;
+always @(posedge clk)
+begin
+q<=(T&~q)|(~T&q);
+qbar<=~q;
+end 
+endmodule
+
+~~~
 
 ## D flipflops:
-
-![Screenshot 2023-12-21 142922](https://github.com/dineshdharank/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145980096/37341f38-e851-407b-9a17-19916019ad65)
-
+~~~
+D flip flop:
+module exp_5d(d,clk,q,qbar);
+input d,clk;
+output q,qbar;
+reg q,qbar;
+always @(posedge clk)
+begin 
+q<=d;
+qbar<=~q;
+end 
+endmodule
+~~~
 
 ## RTL:
 
